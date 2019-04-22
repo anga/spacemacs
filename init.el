@@ -32,3 +32,7 @@
   (spacemacs/setup-startup-hook)
   (require 'server)
   (unless (server-running-p) (server-start)))
+
+;; Custom config
+;;(global-robe-mode)
+;;(add-hook 'after-init-hook 'global-company-mode)

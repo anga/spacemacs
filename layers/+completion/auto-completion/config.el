@@ -30,10 +30,10 @@ selection.")
   "Timeout (seconds) when waiting for the second key of
 `auto-completion-complete-with-key-sequence'.")
 
-(defvar auto-completion-enable-snippets-in-popup nil
+(defvar auto-completion-enable-snippets-in-popup t
   "If non nil show snippets in the auto-completion popup.")
 
-(defvar auto-completion-enable-sort-by-usage nil
+(defvar auto-completion-enable-sort-by-usage t
   "If non nil suggestions are sorted by how often they are used.")
 
 (defvar auto-completion-enable-help-tooltip nil
@@ -51,3 +51,6 @@ to complet without blocking common line endings.")
 
 (defvar auto-completion-private-snippets-directory nil
   "Configurable private snippets directory.")
+
+;;(spacemacs|defvar-company-backends python-mode)
+(spacemacs|defvar-company-backends ruby-mode)
